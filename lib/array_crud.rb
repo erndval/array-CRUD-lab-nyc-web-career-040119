@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  four_fiends_of_the_elements = [Barbaricca, Valvalis, Rubicant, Scarmiglione]
+  four_fiends_of_the_elements = ["Barbaricca", "Valvalis", "Rubicant", "Scarmiglione"]
 end
 
 def add_element_to_end_of_array(array, element)
@@ -15,11 +15,11 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  array.pop(element)
+  array.pop()
 end
 
 def remove_element_from_start_of_array(array)
-  array.shift(element)
+  array.shift()
 end
 
 def retrieve_element_from_index(array, index_number)
